@@ -1,0 +1,16 @@
+@font-face{
+  font-family: 'icons';
+  font-weight: 900;
+  src: url('../fonts/webfonts/fa-solid-900.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'icons';
+  font-weight: 800;
+  src: url('../fonts/webfonts/fa-brands-400.ttf') format('truetype');
+}
+.icon-burger::before{ content: '\f858'; font-weight: 900;}
+.icon-address::before{ content: '\f2b9'; font-weight: 900;}
+.icon-phone::before{ content: '\f095'; font-weight: 900;}
+.icon-instagram::before{ content: '\f16d'; font-weight: 800;}
+.icon-facebook::before{ content: '\f082'; font-weight: 800;}
+.icon-telegram::before{ content: '\f2c6'; font-weight: 800;}
